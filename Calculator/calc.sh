@@ -1,14 +1,15 @@
 #!/bin/bash
 
 # Basic Calculator Shell Script  v1.0
+# No floating point format 
 # Functions
 sum()
 {
 echo Summation
 read -p " Input first number : " Num1
 read -p " Input second number :" Num2
-let total=Num1+Num2
-echo "$total"
+let result=Num1+Num2
+echo "$result"
 }
 
 sub()
@@ -17,8 +18,8 @@ echo Subtraction
 read -p " Input first number : " Num1
 read -p " Input second number :" Num2
 
-let total=Num1-Num2
-echo "$total"
+let result=Num1-Num2
+echo "$result"
 
 }
 
@@ -27,8 +28,8 @@ div()
 echo Division
 read -p " Input first number : " Num1
 read -p " Input second number :" Num2
-let total=Num1/Num2
-echo "$total"
+let result=Num1/Num2
+echo "$result"
 }
 
 
@@ -38,8 +39,8 @@ echo Multiplication
 read -p " Input first number : " Num1
 read -p " Input second number :" Num2
 
-let total=Num1*Num2
-echo "$total"
+let result=Num1*Num2
+echo "$result"
 }
 
 read -p " Select operation  + , - , / , *  input symbol:" count
