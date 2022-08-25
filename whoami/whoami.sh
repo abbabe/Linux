@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# if statements 
+
 read -p " What is your name ?  " name
 read -p " How old are you  ?  " age
 read -p " Average life expectancy " ale
