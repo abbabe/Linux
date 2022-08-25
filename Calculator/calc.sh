@@ -54,5 +54,5 @@ case "$count" in
    ;;
    "*")mul
    ;;
-   *) echo  wrong-operator
+   *) echo wrong-operator
 esac
